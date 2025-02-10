@@ -1,6 +1,6 @@
 # DGMR
 
-# Implementation details are will be uploaded here.
+# Implementation details will be uploaded here.
 
 
 # Task-wise trained models ( [link]())

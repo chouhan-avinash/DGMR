@@ -10,11 +10,11 @@
 - SMILE-CR
 
 # Train
-- cd dgmr_code/SEN12MS-CR //M3R
+- cd dgmr_code/SEN12MS-CR 
 - run train code
 
 # Test
-- cd cd dgmr_code/SEN12MS-CR //M3R
+- cd cd dgmr_code/SEN12MS-CR 
 - Download model
 - load downloaded model and eval
 

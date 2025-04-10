@@ -5,8 +5,17 @@
 
 # Task-wise trained models ( [link](https://drive.google.com/drive/folders/1tOAXv6YeWHg3bKoaTff-1jQinoY_3QqO))
 - M3R-CR
-- SEN12MS-CR
+- SEN12MS-CR (13 bands)
+- SEN12MS-CR (3 Bands)
 - SMILE-CR
 
-# Implementation details will be uploaded here.
+# Train
+## cd cd dgmr_code/SEN12MS-CR
+## run train code
+
+# Test
+## cd cd dgmr_code/SEN12MS-CR
+## Download model
+## load downloaded model and eval
+
 # Credits

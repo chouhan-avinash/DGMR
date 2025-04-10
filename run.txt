@@ -1,0 +1,9 @@
+For SEN12MS-CR
+    cd dgmr_code/SEN12MS-CR
+    run train code
+    run train code
+
+For M3R-CR/ SMILE-CR
+    cd dgmr_code/M3R
+    run train code
+    run eval code

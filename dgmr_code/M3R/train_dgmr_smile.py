@@ -5,11 +5,11 @@ import argparse
 ##********** Configure training settings ************##
 ##===================================================##
 parser=argparse.ArgumentParser()
-parser.add_argument('--batch_sz', type=int, default=6, help='batch size used for training')
+parser.add_argument('--batch_sz', type=int, default=1, help='batch size used for training')
 
-parser.add_argument('--input_data_folder', type=str, default='/san/my/data/smile-cr/TrainData/TrainData')
-parser.add_argument('--train_list_filepath', type=str, default='/san/my/data/smile-cr/train_256.csv')
-parser.add_argument('--val_list_filepath', type=str, default='/san/my/data/smile-cr/val_256.csv')
+parser.add_argument('--input_data_folder', type=str, default='/smile-cr/TrainData/TrainData')
+parser.add_argument('--train_list_filepath', type=str, default='/smile-cr/train_256.csv')
+parser.add_argument('--val_list_filepath', type=str, default='/smile-cr/val_256.csv')
 parser.add_argument('--is_load_SAR', type=bool, default=True)
 parser.add_argument('--is_upsample_SAR', type=bool, default=True) # only useful when is_load_SAR = True
 parser.add_argument('--is_load_landcover', type=bool, default=False)
@@ -27,8 +27,8 @@ parser.add_argument('--max_epochs', type=int, default=100)
 parser.add_argument('--save_freq', type=int, default=1)
 parser.add_argument('--val_freq', type=int, default=2)
 parser.add_argument('--log_iter', type=int, default=10)
-parser.add_argument('--save_model_dir', type=str, default='/san/my/ckpt/m3-cr/dgmr_smile/', help='directory used to store trained networks')
-parser.add_argument('--save_model_dir1', type=str, default='/san/my/ckpt/m3-cr/dgmr_smile/ddpm/', help='directory used to store trained networks')
+parser.add_argument('--save_model_dir', type=str, default='/m3-cr/dgmr_smile/', help='directory used to store trained networks')
+parser.add_argument('--save_model_dir1', type=str, default='/ckpt/m3-cr/dgmr_smile/ddpm/', help='directory used to store trained networks')
 
 parser.add_argument('--gpu_ids', type=str, default='2')
 
@@ -67,7 +67,7 @@ val_dataloader = torch.utils.data.DataLoader(dataset=val_data, batch_size=opts.b
 ##****************** Create model *******************##
 ##===================================================##
 model=DGMR(opts)
-checkpoint = torch.load('/san/my/ckpt/m3-cr/checkpoints_our_tr/29_net_CR.pth') #'/san/my/ckpt/m3-cr/checkpoints_our_tr/29_net_CR.pth'
+
 model.load_checkpoint(14)
 ##===================================================##
 ##**************** Train the network ****************##

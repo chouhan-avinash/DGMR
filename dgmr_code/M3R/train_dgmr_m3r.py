@@ -3,7 +3,7 @@ import argparse
 
 
 parser=argparse.ArgumentParser()
-parser.add_argument('--batch_sz', type=int, default=8, help='batch size used for training')
+parser.add_argument('--batch_sz', type=int, default=1, help='batch size used for training')
 
 parser.add_argument('--input_data_folder', type=str, default='/san/my/data/mm-cr/M3M-CR/train')
 parser.add_argument('--input_data_folder1', type=str, default='/san/my/data/mm-cr/M3M-CR/train')

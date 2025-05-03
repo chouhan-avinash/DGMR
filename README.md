@@ -1,4 +1,4 @@
-# DGMR
+# [DGMR](https://ieeexplore.ieee.org/document/10981761)
 
 
 

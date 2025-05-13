@@ -38,5 +38,5 @@
 # Credits
 - [GLF-CR](https://github.com/xufangchn/GLF-CR/)
 
-# Contact:
+# Contact
 - avinash.chouhan@nesac.gov.in

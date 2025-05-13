@@ -24,12 +24,12 @@
 @ARTICLE{10981761,
   author={Chouhan, Avinash and Chutia, Dibyajyoti and Aggarwal, Shiv Prasad},
   journal={IEEE Geoscience and Remote Sensing Letters}, 
-  title={DGMR: Diffusion Guided Masked Reconstruction framework for multimodal cloud removal}, 
+  title={DGMR: Diffusion Guided Masked Reconstruction Framework for Multimodal Cloud Removal}, 
   year={2025},
-  volume={},
+  volume={22},
   number={},
-  pages={1-1},
-  keywords={Masked reconstruction;diffusion guidance;coupled and decoupled learning;non-cloudy difference similarity},
+  pages={1-5},
+  keywords={Clouds;Feature extraction;Image reconstruction;Optical imaging;Optical sensors;Training;Optical filters;Adaptive optics;Benchmark testing;Integrated optics;Coupled and decoupled learning;diffusion guidance;masked reconstruction;noncloudy difference similarity (NDS)},
   doi={10.1109/LGRS.2025.3566164}}
 
 

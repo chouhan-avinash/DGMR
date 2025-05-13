@@ -1,5 +1,5 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dgmr-diffusion-guided-masked-reconstruction/cloud-removal-on-sen12ms-cr)](https://paperswithcode.com/sota/cloud-removal-on-sen12ms-cr?p=dgmr-diffusion-guided-masked-reconstruction)
-# [DGMR](https://ieeexplore.ieee.org/document/10981761)
+# [DGMR: Diffusion Guided Masked Reconstruction Framework for Multimodal Cloud Removal](https://ieeexplore.ieee.org/document/10981761)
 
 
 
